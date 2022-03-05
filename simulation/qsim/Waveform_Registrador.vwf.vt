@@ -1,0 +1,235 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "03/04/2022 14:17:40"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          Registrador
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Registrador_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg CK;
+reg [7:0] DATA_IN;
+reg LOAD;
+reg MR;
+// wires                                               
+wire [7:0] DATA_OUT;
+
+// assign statements (if any)                          
+Registrador i1 (
+// port map - connection between master ports and signals/registers   
+	.CK(CK),
+	.DATA_IN(DATA_IN),
+	.DATA_OUT(DATA_OUT),
+	.LOAD(LOAD),
+	.MR(MR)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// MR
+initial
+begin
+	MR = 1'b1;
+	MR = #20000 1'b0;
+	MR = #30000 1'b1;
+	MR = #140000 1'b0;
+	MR = #20000 1'b1;
+	MR = #270000 1'b0;
+	MR = #60000 1'b1;
+	MR = #210000 1'b0;
+	MR = #10000 1'b1;
+end 
+
+// CK
+initial
+begin
+	CK = 1'b0;
+	CK = #10000 1'b1;
+	CK = #10000 1'b0;
+	CK = #10000 1'b1;
+	CK = #10000 1'b0;
+	CK = #10000 1'b1;
+	# 10000;
+	repeat(47)
+	begin
+		CK = 1'b0;
+		CK = #10000 1'b1;
+		# 10000;
+	end
+end 
+
+// LOAD
+initial
+begin
+	LOAD = 1'b0;
+	LOAD = #80000 1'b1;
+	LOAD = #10000 1'b0;
+	LOAD = #20000 1'b1;
+	LOAD = #10000 1'b0;
+	LOAD = #130000 1'b1;
+	LOAD = #20000 1'b0;
+	LOAD = #40000 1'b1;
+	LOAD = #10000 1'b0;
+	LOAD = #60000 1'b1;
+	LOAD = #10000 1'b0;
+	LOAD = #80000 1'b1;
+	LOAD = #10000 1'b0;
+	LOAD = #100000 1'b1;
+	LOAD = #10000 1'b0;
+	LOAD = #40000 1'b1;
+	LOAD = #10000 1'b0;
+end 
+// DATA_IN[ 7 ]
+initial
+begin
+	DATA_IN[7] = 1'b1;
+	DATA_IN[7] = #160000 1'b0;
+	DATA_IN[7] = #40000 1'b1;
+	DATA_IN[7] = #120000 1'b0;
+	DATA_IN[7] = #40000 1'b1;
+	DATA_IN[7] = #40000 1'b0;
+	DATA_IN[7] = #120000 1'b1;
+	DATA_IN[7] = #40000 1'b0;
+	DATA_IN[7] = #40000 1'b1;
+	DATA_IN[7] = #120000 1'b0;
+	DATA_IN[7] = #240000 1'b1;
+end 
+// DATA_IN[ 6 ]
+initial
+begin
+	DATA_IN[6] = 1'b0;
+	DATA_IN[6] = #40000 1'b1;
+	DATA_IN[6] = #80000 1'b0;
+	DATA_IN[6] = #40000 1'b1;
+	DATA_IN[6] = #80000 1'b0;
+	DATA_IN[6] = #40000 1'b1;
+	DATA_IN[6] = #120000 1'b0;
+	DATA_IN[6] = #120000 1'b1;
+	DATA_IN[6] = #40000 1'b0;
+	DATA_IN[6] = #40000 1'b1;
+	DATA_IN[6] = #120000 1'b0;
+	DATA_IN[6] = #40000 1'b1;
+	DATA_IN[6] = #40000 1'b0;
+end 
+// DATA_IN[ 5 ]
+initial
+begin
+	DATA_IN[5] = 1'b0;
+	DATA_IN[5] = #200000 1'b1;
+	DATA_IN[5] = #80000 1'b0;
+	DATA_IN[5] = #80000 1'b1;
+	DATA_IN[5] = #40000 1'b0;
+	DATA_IN[5] = #80000 1'b1;
+	DATA_IN[5] = #40000 1'b0;
+	DATA_IN[5] = #80000 1'b1;
+	DATA_IN[5] = #80000 1'b0;
+	DATA_IN[5] = #40000 1'b1;
+	DATA_IN[5] = #80000 1'b0;
+	DATA_IN[5] = #40000 1'b1;
+end 
+// DATA_IN[ 4 ]
+initial
+begin
+	DATA_IN[4] = 1'b0;
+	DATA_IN[4] = #40000 1'b1;
+	DATA_IN[4] = #40000 1'b0;
+	DATA_IN[4] = #80000 1'b1;
+	DATA_IN[4] = #40000 1'b0;
+	DATA_IN[4] = #40000 1'b1;
+	DATA_IN[4] = #160000 1'b0;
+	DATA_IN[4] = #40000 1'b1;
+	DATA_IN[4] = #40000 1'b0;
+	DATA_IN[4] = #40000 1'b1;
+	DATA_IN[4] = #120000 1'b0;
+	DATA_IN[4] = #40000 1'b1;
+	DATA_IN[4] = #80000 1'b0;
+	DATA_IN[4] = #40000 1'b1;
+	DATA_IN[4] = #160000 1'b0;
+end 
+// DATA_IN[ 3 ]
+initial
+begin
+	DATA_IN[3] = 1'b0;
+	DATA_IN[3] = #120000 1'b1;
+	DATA_IN[3] = #80000 1'b0;
+	DATA_IN[3] = #80000 1'b1;
+	DATA_IN[3] = #120000 1'b0;
+	DATA_IN[3] = #40000 1'b1;
+	DATA_IN[3] = #40000 1'b0;
+	DATA_IN[3] = #40000 1'b1;
+	DATA_IN[3] = #40000 1'b0;
+	DATA_IN[3] = #40000 1'b1;
+	DATA_IN[3] = #40000 1'b0;
+	DATA_IN[3] = #40000 1'b1;
+	DATA_IN[3] = #40000 1'b0;
+	DATA_IN[3] = #80000 1'b1;
+	DATA_IN[3] = #80000 1'b0;
+	DATA_IN[3] = #40000 1'b1;
+	DATA_IN[3] = #40000 1'b0;
+end 
+// DATA_IN[ 2 ]
+initial
+begin
+	DATA_IN[2] = 1'b0;
+	DATA_IN[2] = #120000 1'b1;
+	DATA_IN[2] = #360000 1'b0;
+	DATA_IN[2] = #40000 1'b1;
+	DATA_IN[2] = #160000 1'b0;
+end 
+// DATA_IN[ 1 ]
+initial
+begin
+	DATA_IN[1] = 1'b0;
+	DATA_IN[1] = #80000 1'b1;
+	DATA_IN[1] = #40000 1'b0;
+	DATA_IN[1] = #40000 1'b1;
+	DATA_IN[1] = #200000 1'b0;
+	DATA_IN[1] = #40000 1'b1;
+	DATA_IN[1] = #40000 1'b0;
+	DATA_IN[1] = #40000 1'b1;
+	DATA_IN[1] = #120000 1'b0;
+	DATA_IN[1] = #40000 1'b1;
+	DATA_IN[1] = #160000 1'b0;
+	DATA_IN[1] = #40000 1'b1;
+	DATA_IN[1] = #80000 1'b0;
+	DATA_IN[1] = #40000 1'b1;
+end 
+// DATA_IN[ 0 ]
+initial
+begin
+	DATA_IN[0] = 1'b1;
+	DATA_IN[0] = #400000 1'b0;
+	DATA_IN[0] = #80000 1'b1;
+	DATA_IN[0] = #120000 1'b0;
+	DATA_IN[0] = #80000 1'b1;
+	DATA_IN[0] = #40000 1'b0;
+	DATA_IN[0] = #80000 1'b1;
+	DATA_IN[0] = #160000 1'b0;
+end 
+endmodule
+

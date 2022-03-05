@@ -1,0 +1,274 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/projects/fpga/SAP1/simulation/qsim
+vhard_block
+Z1 !s110 1646518972
+!i10b 1
+!s100 ?z63i4@ej2b5gY<RmX:bh0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IX9U9ZAK51fGVHZBV^IXl53
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1646518970
+Z5 8SAP1.vo
+Z6 FSAP1.vo
+!i122 52
+L0 3204 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1646518972.000000
+Z9 !s107 SAP1.vo|
+Z10 !s90 -work|work|SAP1.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vMEM
+Z13 !s110 1646486531
+!i10b 1
+!s100 dRgSTN:YOP_c;cHYzD61g0
+R2
+I:81ajHLT0W8cacmd;W=EJ1
+R3
+R0
+w1646486529
+R5
+R6
+!i122 40
+L0 32 338
+R7
+r1
+!s85 0
+31
+Z14 !s108 1646486531.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@m@e@m
+vMEM_vlg_vec_tst
+R13
+!i10b 1
+!s100 M]j2eiP_Ni;kGBLEl<Oc82
+R2
+ILnRE0h>T9P>a1IdJWQU]C3
+R3
+R0
+w1646486528
+8Waveform_MEM.vwf.vt
+FWaveform_MEM.vwf.vt
+!i122 41
+L0 30 54
+R7
+r1
+!s85 0
+31
+R14
+!s107 Waveform_MEM.vwf.vt|
+!s90 -work|work|Waveform_MEM.vwf.vt|
+!i113 1
+R11
+R12
+n@m@e@m_vlg_vec_tst
+vPC
+Z15 !s110 1646484821
+!i10b 1
+!s100 `_h_7n^>2WZIR:Iek0oZI1
+R2
+I^69HA]U9QMaUAl2iNMknB1
+R3
+R0
+w1646484819
+R5
+R6
+!i122 38
+L0 32 399
+R7
+r1
+!s85 0
+31
+!s108 1646484820.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@p@c
+vPC_vlg_vec_tst
+R15
+!i10b 1
+!s100 _dY;0MhLXmhhz<QG4@W?W1
+R2
+I5Xf7iY[KS:O]Wk[7oAZ2J2
+R3
+R0
+w1646484818
+8Waveform_PC.vwf.vt
+FWaveform_PC.vwf.vt
+!i122 39
+L0 30 52
+R7
+r1
+!s85 0
+31
+!s108 1646484821.000000
+!s107 Waveform_PC.vwf.vt|
+!s90 -work|work|Waveform_PC.vwf.vt|
+!i113 1
+R11
+R12
+n@p@c_vlg_vec_tst
+vRegistrador
+!s110 1646414263
+!i10b 1
+!s100 ngn1DjkA::cYd4Dz`nehB2
+R2
+I1TamiSK1cPBli?92[j:E20
+R3
+R0
+w1646414261
+R5
+R6
+!i122 34
+L0 32 580
+R7
+r1
+!s85 0
+31
+!s108 1646414263.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@registrador
+vRegistrador_vlg_vec_tst
+!s110 1646414264
+!i10b 1
+!s100 7;TaIXXF7nIc`he>fB6`m3
+R2
+I@XaNM7b:QFhjA0Q5=;z330
+R3
+R0
+w1646414260
+8Waveform_Registrador.vwf.vt
+FWaveform_Registrador.vwf.vt
+!i122 35
+L0 30 205
+R7
+r1
+!s85 0
+31
+!s108 1646414264.000000
+!s107 Waveform_Registrador.vwf.vt|
+!s90 -work|work|Waveform_Registrador.vwf.vt|
+!i113 1
+R11
+R12
+n@registrador_vlg_vec_tst
+vSAP1
+R1
+!i10b 1
+!s100 0A2j]aK98HZ^;=QzG4=n60
+R2
+I]eUFRH=hjn>fRe4NPa1eO3
+R3
+R0
+R4
+R5
+R6
+!i122 52
+L0 32 3171
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@s@a@p1
+vSAP1_vlg_vec_tst
+!s110 1646518973
+!i10b 1
+!s100 ^YZ4;^B7=UOO^EHDRN^dB2
+R2
+IlEhM?A=mUcWhB]PODbhcn2
+R3
+R0
+R4
+8Waveform_SAP1.vwf.vt
+FWaveform_SAP1.vwf.vt
+!i122 53
+L0 30 41
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform_SAP1.vwf.vt|
+!s90 -work|work|Waveform_SAP1.vwf.vt|
+!i113 1
+R11
+R12
+n@s@a@p1_vlg_vec_tst
+vULA
+Z16 !s110 1646347980
+!i10b 1
+!s100 XXd<Q]MVXCFW:RjA@8?n[3
+R2
+I=PbCKDgWX8;nLk=3RI7;n3
+R3
+R0
+w1646347978
+R5
+R6
+!i122 0
+L0 32 692
+R7
+r1
+!s85 0
+31
+!s108 1646347979.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@u@l@a
+vULA_vlg_vec_tst
+R16
+!i10b 1
+!s100 VJNk:a<XoXK]UY92>e@DE3
+R2
+Ibog;L9C2EFm[ZW6Z:OK9C3
+R3
+R0
+w1646347977
+8Waveform_ULA.vwf.vt
+FWaveform_ULA.vwf.vt
+!i122 1
+L0 30 450
+R7
+r1
+!s85 0
+31
+!s108 1646347980.000000
+!s107 Waveform_ULA.vwf.vt|
+!s90 -work|work|Waveform_ULA.vwf.vt|
+!i113 1
+R11
+R12
+n@u@l@a_vlg_vec_tst
